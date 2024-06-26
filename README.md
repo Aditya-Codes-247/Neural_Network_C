@@ -32,5 +32,5 @@ To compile and run the codes in this repository, you need:
 Clone this repository to your local machine using the following command:
 
 ```sh
-git clone https://github.com/yourusername/NeuralNetworkLogicGates.git
+git clone https://github.com/Aditya-Codes-247/Neural_Network_C.git
 cd NeuralNetworkLogicGates
