@@ -34,3 +34,48 @@ Clone this repository to your local machine using the following command:
 ```sh
 git clone https://github.com/Aditya-Codes-247/Neural_Network_C.git
 cd NeuralNetworkLogicGates
+```
+
+### Logic Gates Implemented
+
+The neural networks in this repository are capable of predicting the outputs of the following logic gates:
+
+- AND
+- OR
+- XOR
+
+### Network Architecture
+
+The neural networks implemented in this repository consist of:
+
+- An input layer with 2 neurons (corresponding to the 2 inputs of the logic gate)
+- One or more hidden layers
+- An output layer with 1 neuron (corresponding to the single output of the logic gate)
+
+### Usage
+
+- AND Gate
+  ```sh
+   gcc -o Neural_AND Neural_AND.c
+  ./Neural_AND
+  ```
+- OR Gate
+  ```sh
+  gcc -o Neural_OR Neural_OR.c
+  ./Neural_OR
+  ```
+- XOR Gate
+  ```sh
+  gcc -o Neural_XOR Neural_XOR.c
+  ./Neural_XOR
+  ```
+### Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
+
+- Steps to Contribute
+- Fork this repository
+- Create a new branch (git checkout -b feature-branch)
+- Commit your changes (git commit -m 'Add some feature')
+- Push to the branch (git push origin feature-branch)
+- Open a pull request
+
